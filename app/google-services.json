@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "707802614102",
+    "project_id": "gizoexperiencesapp",
+    "storage_bucket": "gizoexperiencesapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707802614102:android:1049cf7a584948789daef7",
+        "android_client_info": {
+          "package_name": "com.mihaimarinescu.gizoexperiencesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707802614102-4qjf1pma9rgd0dql1jgtsoibjo5s38jv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDlf3CPLsJP9XSGMW9TgrdbVuGr0enjIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707802614102-4qjf1pma9rgd0dql1jgtsoibjo5s38jv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

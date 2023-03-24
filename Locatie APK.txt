@@ -1,0 +1,1 @@
+GizoExperiencesApp\app\build\intermediates\apk\debug

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mihaimarinescu.gizoexperiencesapp">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GizoExperiencesApp">
+        <activity
+            android:name=".activitys.ProfileEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.imgBookingEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.CheckoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_checkout"
+            android:theme="@style/Theme.GizoExperiencesApp" /> <!-- This element is required to enable Google Pay in your app. -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity
+            android:name=".activitys.ImgBookingListAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.ImgBookingAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.CategoryAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.DashboardAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.DashboardUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activitys.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitys.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchI"
+        android:icon="@drawable/ic_search_white"
+        android:title="Explore"/>
+
+    <item
+        android:id="@+id/wishlistI"
+        android:icon="@drawable/ic_favorite_filled_white"
+        android:title="Wishlist"/>
+
+    <item
+        android:id="@+id/bookingsI"
+        android:icon="@drawable/ic_book_white"
+        android:title="Bookings"/>
+
+    <item
+        android:id="@+id/profileI"
+        android:icon="@drawable/ic_person_white"
+        android:title="Profile"/>
+</menu>
